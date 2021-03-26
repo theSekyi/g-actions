@@ -6,4 +6,4 @@ jobs:
   job-one:
   runs-on: ubuntu-latest
   steps:
-    run: echo This is our basic workflow
+    run: echo "This is our basic workflow"

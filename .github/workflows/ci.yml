@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - shell: bash
-        name: Echo text
+      - name: Echo text
         run: echo This is our basic workflow
 
-        name: ASCII Echo text
+      - name: ASCII Echo text
         uses: mscoutermarsh/ascii-art-action@master
         with:
           text: 'HELLO!'

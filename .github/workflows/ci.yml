@@ -15,4 +15,5 @@ jobs:
       - name: ASCII Echo text
         uses: mscoutermarsh/ascii-art-action@master
         with:
+          name: some text
           text: 'HELLO!'

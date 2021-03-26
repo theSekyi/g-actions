@@ -1,0 +1,11 @@
+name: Basic
+
+on: push
+
+jobs:
+  job-one:
+  name: First job
+  runs-on: ubuntu-latest
+  steps:
+    - step one
+    run: echo This is our basic workflow

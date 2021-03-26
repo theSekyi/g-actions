@@ -7,5 +7,5 @@ jobs:
   name: First job
   runs-on: ubuntu-latest
   steps:
-    - step one
+  - name:step one
     run: echo This is our basic workflow

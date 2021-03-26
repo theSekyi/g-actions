@@ -9,7 +9,8 @@ jobs:
     steps:
       - shell: bash
       - name: Echo text
-        run: echo This is our basic workflow
+        run: |
+          echo This is our basic workflow
 
       - name: ASCII Echo text
         uses: mscoutermarsh/ascii-art-action@master

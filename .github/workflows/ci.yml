@@ -4,7 +4,7 @@ on: push
 
 jobs:
   job-one:
-  runs-on: ubuntu-latest
-  steps:
-    - shell: bash
-      run: echo This is our basic workflow
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: echo This is our basic workflow

@@ -7,6 +7,5 @@ jobs:
     name: Say Greetings
     runs-on: ubuntu-latest
     steps:
-      - name: Echo some text
       - shell: bash
         run: echo This is our basic workflow
